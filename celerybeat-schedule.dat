@@ -1,0 +1,12 @@
+€}q X   send_mails_every_monday_8amqccelery.beat
+ScheduleEntry
+q(hX    news.tasks.send_new_mails_weeklyqcdatetime
+datetime
+qC
+æ
+,œ™qcpytz
+_UTC
+q)Rq†qRq	K ccelery.schedules
+crontab
+q
+(K6KX   saturdayqX   *qhtqRq}qb)}q}qtqRqs.                                                                                                                                                                                                                                                                   €X   5.2.0q .                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 €X   Europe/Moscowq .                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         €ˆ.

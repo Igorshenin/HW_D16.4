@@ -1,0 +1,48 @@
+2022-04-08 23:44:57,249 ERROR "GET /news/ HTTP/1.1" 500 90192 D:\Projects\Skillfactory_projects\D13.4\venv\lib\site-packages\django\core\servers\basehttp.py None
+2022-04-08 23:45:18,762 ERROR "GET /news/ HTTP/1.1" 500 90199 D:\Projects\Skillfactory_projects\D13.4\venv\lib\site-packages\django\core\servers\basehttp.py None
+2022-04-08 23:46:10,493 ERROR  D:\Projects\Skillfactory_projects\D13.4\NewsPaper\news\views.py None
+2022-04-08 23:46:10,493 CRITICAL  D:\Projects\Skillfactory_projects\D13.4\NewsPaper\news\views.py None
+2022-04-08 23:46:10,493 ERROR  D:\Projects\Skillfactory_projects\D13.4\NewsPaper\news\views.py None
+2022-04-08 23:46:10,493 CRITICAL  D:\Projects\Skillfactory_projects\D13.4\NewsPaper\news\views.py None
+2022-04-08 23:46:10,494 ERROR  D:\Projects\Skillfactory_projects\D13.4\NewsPaper\news\views.py None
+2022-04-08 23:46:10,494 CRITICAL  D:\Projects\Skillfactory_projects\D13.4\NewsPaper\news\views.py None
+2022-04-08 23:47:40,813 ERROR  D:\Projects\Skillfactory_projects\D13.4\NewsPaper\news\views.py None
+2022-04-08 23:47:40,815 CRITICAL  D:\Projects\Skillfactory_projects\D13.4\NewsPaper\news\views.py None
+2022-04-08 23:47:40,816 ERROR  D:\Projects\Skillfactory_projects\D13.4\NewsPaper\news\views.py None
+2022-04-08 23:47:40,816 CRITICAL  D:\Projects\Skillfactory_projects\D13.4\NewsPaper\news\views.py None
+2022-04-08 23:47:40,816 ERROR  D:\Projects\Skillfactory_projects\D13.4\NewsPaper\news\views.py None
+2022-04-08 23:47:40,816 CRITICAL  D:\Projects\Skillfactory_projects\D13.4\NewsPaper\news\views.py None
+2022-04-08 23:47:40,817 ERROR  D:\Projects\Skillfactory_projects\D13.4\NewsPaper\news\views.py None
+2022-04-08 23:47:40,817 CRITICAL  D:\Projects\Skillfactory_projects\D13.4\NewsPaper\news\views.py None
+2022-05-26 22:29:59,533 ERROR Internal Server Error: /accounts/google/login/ C:\Users\Игорь и Катя\AppData\Roaming\Python\Python38\site-packages\django\utils\log.py (<class 'allauth.socialaccount.models.SocialApp.DoesNotExist'>, DoesNotExist('SocialApp matching query does not exist.'), <traceback object at 0x04C05468>)
+Traceback (most recent call last):
+  File "C:\Users\Игорь и Катя\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Игорь и Катя\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Игорь и Катя\AppData\Roaming\Python\Python38\site-packages\allauth\socialaccount\providers\oauth2\views.py", line 80, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Игорь и Катя\AppData\Roaming\Python\Python38\site-packages\allauth\socialaccount\providers\base\mixins.py", line 18, in dispatch
+    return self.login(request, *args, **kwargs)
+  File "C:\Users\Игорь и Катя\AppData\Roaming\Python\Python38\site-packages\allauth\socialaccount\providers\oauth2\views.py", line 108, in login
+    app = provider.get_app(self.request)
+  File "C:\Users\Игорь и Катя\AppData\Roaming\Python\Python38\site-packages\allauth\socialaccount\providers\base\provider.py", line 30, in get_app
+    return adapter.get_app(request, self.id)
+  File "C:\Users\Игорь и Катя\AppData\Roaming\Python\Python38\site-packages\allauth\socialaccount\adapter.py", line 204, in get_app
+    app = SocialApp.objects.get_current(provider, request)
+  File "C:\Users\Игорь и Катя\AppData\Roaming\Python\Python38\site-packages\allauth\socialaccount\models.py", line 31, in get_current
+    app = self.get(sites__id=site.id, provider=provider)
+  File "C:\Users\Игорь и Катя\AppData\Roaming\Python\Python38\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Игорь и Катя\AppData\Roaming\Python\Python38\site-packages\django\db\models\query.py", line 435, in get
+    raise self.model.DoesNotExist(
+allauth.socialaccount.models.SocialApp.DoesNotExist: SocialApp matching query does not exist.
+2022-05-26 22:29:59,535 ERROR "POST /accounts/google/login/?process=login HTTP/1.1" 500 105116 C:\Users\Игорь и Катя\AppData\Roaming\Python\Python38\site-packages\django\core\servers\basehttp.py None
+2022-05-26 22:30:26,478 ERROR  D:\Skill Factory\HW_D16.4\NewsPaper\news\views.py None
+2022-05-26 22:30:26,478 CRITICAL  D:\Skill Factory\HW_D16.4\NewsPaper\news\views.py None
+2022-05-26 22:30:26,478 ERROR  D:\Skill Factory\HW_D16.4\NewsPaper\news\views.py None
+2022-05-26 22:30:26,478 CRITICAL  D:\Skill Factory\HW_D16.4\NewsPaper\news\views.py None
+2022-05-26 22:30:26,478 ERROR  D:\Skill Factory\HW_D16.4\NewsPaper\news\views.py None
+2022-05-26 22:30:26,478 CRITICAL  D:\Skill Factory\HW_D16.4\NewsPaper\news\views.py None
+2022-05-26 22:30:26,478 ERROR  D:\Skill Factory\HW_D16.4\NewsPaper\news\views.py None
+2022-05-26 22:30:26,478 CRITICAL  D:\Skill Factory\HW_D16.4\NewsPaper\news\views.py None
